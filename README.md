@@ -10,12 +10,12 @@
 ![license](https://img.shields.io/github/license/GZTimeWalker/GZCTF?color=FF5531)
 [![Telegram Group](https://img.shields.io/endpoint?color=blue&url=https%3A%2F%2Ftg.sumanjay.workers.dev%2Fgzctf)](https://telegram.dog/gzctf)
 
-GZ::CTF 是一个基于 ASP.NET Core 的开源 CTF 平台。
+GZ::CTF is an open source CTF platform based on ASP.NET Core.
 
-## 关于本仓库
+## About
 
-本仓库为 GZ::CTF 平台所使用动态容器的示例题目及相关模版。
+This repository contains dynamic container challenge templates which can be used in GZ::CTF.
 
-## 题目编写提示
+## Hint for creating challenges
 
-- 请勿在题目 Dockerfile 中使用 `EXPOSE` 暴露端口，因为 GZ::CTF 会自动将指定端口映射到主机的随机端口上，如果在 Dockerfile 中使用 `EXPOSE` 会导致一道题暴露多个端口，占用端口资源、留下安全隐患。
+- Please do not use `EXPOSE` to expose ports in the challenge Dockerfile, because GZ::CTF will automatically map the specified port to a random port on the host. If `EXPOSE` is used in the Dockerfile, it will cause the challenge to expose multiple ports and occupy port resources, and even expose safety risks.
