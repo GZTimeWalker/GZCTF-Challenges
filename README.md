@@ -18,4 +18,4 @@ This repository contains dynamic container challenge templates which can be used
 
 ## Hint for creating challenges
 
-- Please do not use `EXPOSE` to expose ports in the challenge Dockerfile, because GZ::CTF will automatically map the specified port to a random port on the host. If `EXPOSE` is used in the Dockerfile, it will cause the challenge to expose multiple ports and occupy port resources, and even expose safety risks.
+- Please do not use `EXPOSE` to expose ports in the challenge Dockerfile, because GZ::CTF will automatically map the specified port to a random port on the host. If `EXPOSE` is used in the Dockerfile, it will cause the challenge to expose multiple ports and occupy port resources, and even expose security risks.
